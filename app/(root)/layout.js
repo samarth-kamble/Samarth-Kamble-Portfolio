@@ -69,7 +69,7 @@ const RootLayout = ({ children }) => {
           >
             <span className="icon border-2 border-Green p-2 rounded-xl">
               {" "}
-              <FaBars />
+              <FaBars className="cursor-pointer" />
             </span>
           </div>
           <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-90 flex items-center justify-center text-center text-xl text-gray-600 font-extrabold tracking-widest">
