@@ -7,6 +7,8 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Location from "./Intro Comp/Location";
 import Contact from "./Intro Comp/Contact";
 import Download from "./Intro Comp/Download";
+import Language from "./Intro Comp/Language";
+import Skills from "./Intro Comp/Skills";
 const Intro = () => {
   return (
     <>
@@ -29,6 +31,8 @@ const Intro = () => {
 
       <div className="beech z-20 flex flex-col overflow-y-scroll pt-48 top-48 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4">
         <Location />
+        <Language />
+        <Skills />
         <Contact />
         <Download />
       </div>
